@@ -7,6 +7,9 @@ After that you can start the crawler by using the powershell("./runCrawler") or 
 The FastAPI application can be started in a similar way by using powershell("./runApi") or shell/bash("sh runApi.sh | bash runApi.sh").
 
 The API has only 3 types of requests that can be send:
-GET:/articles - which gives you all the articles in the database
-GET:/articles/id - which gives you a specific article
-DELETE:/articles/id - which delets a specific article
+
+GET: /articles - which gives you all the articles in the database.
+
+GET: /articles/id - which gives you a specific article.
+
+DELETE: /articles/id - which delets a specific article.
