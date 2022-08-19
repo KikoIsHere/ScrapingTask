@@ -29,5 +29,5 @@ class CrawlerItem(JsonSchemaItem):
 				"type": "string",
 			},
 		},
-		"required": ["date", "name", "link", "labels", "content",]
+		"required": ["date", "name", "link", "labels"]
 	}
